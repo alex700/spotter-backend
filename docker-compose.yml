@@ -1,0 +1,9 @@
+version: '3'
+services:
+  spotter:
+    ports:
+      - "3000:80"
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: 'spotter_backend'

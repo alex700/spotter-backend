@@ -1,0 +1,7 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "assets": [
+    {"include": "catalog/data/demo-catalog.json", "watchAssets": true}
+  ]
+}
